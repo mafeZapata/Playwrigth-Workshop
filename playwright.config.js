@@ -19,7 +19,9 @@ const config = defineConfig({
     browserName: 'chromium',
     headless: true,
     // Habilitar los console.log de la página
-    console: 'on'
+    console: 'on',
+    screenshot: 'on',
+    trace: 'retain-on-failure',
   },
 
 });
